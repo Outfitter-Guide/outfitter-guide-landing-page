@@ -60,7 +60,7 @@ export const ContactHunter = () => {
                 </InputWrapper>
                 <InputWrapper>
                   <Label>Phone Number</Label>
-                  <Input type='tel' pattern='[0-9]{3}-[0-9]{3}-[0-9]{4}' name='number' placeholder='000-000-0000' required/>
+                  <Input type='tel' pattern='[0-9]{3}-[0-9]{3}-[0-9]{4}' name='number' placeholder='000-000-0000'/>
                 </InputWrapper>
                 <InputWrapper>
                   <Label>*Outfitter Email</Label>

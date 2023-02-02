@@ -48,7 +48,7 @@ export const ContactOutfitter = () => {
                 </InputWrapper>
                 <InputWrapper>
                     <Label>*Outfitter Email</Label>
-                    <Input type='email' name='hunterEmail' placeholder='example@email.com' required/>
+                    <Input type='email' name='outfitterEmail' placeholder='example@email.com' required/>
                 </InputWrapper>
                 <InputWrapper>
                     <Label>*Outfitter Name</Label>
