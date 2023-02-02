@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/outfitter-guide-landing-page/static/css/main.d7da34c1.css",
-    "main.js": "/outfitter-guide-landing-page/static/js/main.5fb90599.js",
+    "main.js": "/outfitter-guide-landing-page/static/js/main.6971f1ef.js",
     "static/media/kyle.jpeg": "/outfitter-guide-landing-page/static/media/kyle.7c21c98588be2a50bd62.jpeg",
     "static/media/elk_bugle.mp4": "/outfitter-guide-landing-page/static/media/elk_bugle.85e4b18998a4e07a0e9d.mp4",
     "static/media/patrick.jpeg": "/outfitter-guide-landing-page/static/media/patrick.ef51a353286f6231c45b.jpeg",
@@ -18,10 +18,10 @@
     "static/media/fawnie_mountain-logo.svg": "/outfitter-guide-landing-page/static/media/fawnie_mountain-logo.ba9875cc160596958017ec3b16f894ce.svg",
     "index.html": "/outfitter-guide-landing-page/index.html",
     "main.d7da34c1.css.map": "/outfitter-guide-landing-page/static/css/main.d7da34c1.css.map",
-    "main.5fb90599.js.map": "/outfitter-guide-landing-page/static/js/main.5fb90599.js.map"
+    "main.6971f1ef.js.map": "/outfitter-guide-landing-page/static/js/main.6971f1ef.js.map"
   },
   "entrypoints": [
     "static/css/main.d7da34c1.css",
-    "static/js/main.5fb90599.js"
+    "static/js/main.6971f1ef.js"
   ]
 }
