@@ -6,7 +6,7 @@ import Hunter from './pages/hunter';
 
 function App() {
   return (
-    <Router basename='/theoutfitter.guide'>
+    <Router basename='/'>
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/outfitter' element={<Outfitter/>} />
