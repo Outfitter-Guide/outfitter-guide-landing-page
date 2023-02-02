@@ -10,7 +10,7 @@ export const WelcomeContainer = styled.div`
     height: 900px;
     z-index: 1;
 
-    @media screen and (max-width: 510px){
+    @media screen and (max-width: 600px){
         height: 630px;
     }
 `
@@ -25,7 +25,7 @@ export const WelcomeContent = styled.div`
     flex-direction: column;
     align-items: center;
 
-    @media screen and (max-width: 510px){
+    @media screen and (max-width: 600px){
         max-width: 350px;
     }
 `
@@ -39,7 +39,7 @@ export const WelcomeH1 = styled.h1`
         font-size: 40px;
     }
 
-    @media screen and (max-width: 510px){
+    @media screen and (max-width: 600px){
         font-size: 28px;
     }
 `
@@ -54,7 +54,7 @@ export const WelcomeH2 = styled.h1`
         font-size: 40px;
     }
 
-    @media screen and (max-width: 510px){
+    @media screen and (max-width: 600px){
         font-size: 28px;
     }
 `
@@ -71,7 +71,7 @@ export const WelcomeP1 = styled.p`
         font-size: 24px;
     }
 
-    @media screen and (max-width: 510px){
+    @media screen and (max-width: 600px){
         font-size: 14px;
     }
 `
@@ -82,7 +82,7 @@ export const WelcomeBtnWrapper = styled.div`
     align-items: center;
     gap: 5em;
 
-    @media screen and (max-width: 510px){
+    @media screen and (max-width: 600px){
         gap: 2em;
     }
 `

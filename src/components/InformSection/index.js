@@ -17,9 +17,9 @@ function InformSection() {
                 >Zach Hanson</u> to learn more.
             </InformP1>
             <InformOutfitters>
-                <img src={require('../../images/fawnie_mountain-logo.svg').default} style={{alignSelf: 'center'}} height={125} width={450} alt='logo'/>
+                <img className='fawnie' src={require('../../images/fawnie_mountain-logo.svg').default} style={{alignSelf: 'center'}} height={125} width={450} alt='logo'/>
                 <img src={require('../../images/mystic_saddle.jpg')} height={125} width={450} alt='logo'/>
-                <img src={require('../../images/bear_creek.png')} width={500} alt='logo'/>
+                <img src={require('../../images/bear_creek.png')} height={125} width={450} alt='logo'/>
             </InformOutfitters>
         </InformContent>
     </InformContainer>
