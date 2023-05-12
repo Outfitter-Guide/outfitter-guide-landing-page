@@ -10,7 +10,7 @@ import {
 
 function AdvisorSection() {
   return (
-    <AdvisorContainer>
+    <AdvisorContainer id='advisors'>
         <AdvisorContent>
             <AdvisorH1>Advisor Team</AdvisorH1>
             <AdvisorInfo>

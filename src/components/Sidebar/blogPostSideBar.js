@@ -5,13 +5,13 @@ import {
     CloseIcon,
     SidebarWrapper,
     SidebarMenu,
-    SidebarLink,
+    // SidebarLink,
     // SidebarBtnWrap,
     SideBarRoute
 
  } from './SidebarElements'
 
-export const Sidebar = ({isOpen, toggle}) => {
+export const BlogPostSidebar = ({isOpen, toggle}) => {
   return (
     <SidebarContainer isOpen={isOpen} onClick={toggle}>
         <Icon onClick={toggle}>
@@ -19,10 +19,7 @@ export const Sidebar = ({isOpen, toggle}) => {
         </Icon>
         <SidebarWrapper>
             <SidebarMenu>
-                <SidebarLink to='welcome' onClick={toggle}>Welcome</SidebarLink>
-                <SidebarLink to='prod-dev' onClick={toggle}>Product Development</SidebarLink>
-                <SidebarLink to='founders' onClick={toggle}>Founders</SidebarLink>
-                <SidebarLink to='advisors' onClick={toggle}>Advisors</SidebarLink>
+                <SideBarRoute to='/' onClick={toggle}>Home Page</SideBarRoute>
                 <SideBarRoute to='/blog' onClick={toggle}>Blog</SideBarRoute>
             </SidebarMenu>
         </SidebarWrapper>
@@ -30,4 +27,4 @@ export const Sidebar = ({isOpen, toggle}) => {
   )
 }
 
-export default Sidebar
+export default BlogPostSidebar
