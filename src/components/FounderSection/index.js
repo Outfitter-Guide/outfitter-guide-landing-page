@@ -12,7 +12,7 @@ import {
 
 function FounderSection() {
   return (
-    <FounderContainer>
+    <FounderContainer id='founders'>
         <FounderContent>
             <FounderH1>Our Founding Team</FounderH1>
                 <FounderP1>

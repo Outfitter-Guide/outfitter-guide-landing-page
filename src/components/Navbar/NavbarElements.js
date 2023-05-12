@@ -1,11 +1,9 @@
 import styled from 'styled-components';
-import { Link as LinkR } from 'react-router-dom';
-import { Link as LinkS } from 'react-scroll';
 
 export const Nav = styled.nav`
     background: #32546d;
     height: 130px;
-    /* margin-top: -80px; */
+    margin-top: -80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,74 +16,45 @@ export const Nav = styled.nav`
         transition: 0.8s all ease;
     }
 `
-
 export const NavbarContainer = styled.div`
     display: flex;
     justify-content: space-between;
-    height: 80px;
+    height: 95px;
     z-index: 1;
     width: 100%;
     padding: 0 24px;
     max-width: 1100px;
 `
-
-export const NavLogo = styled(LinkR)`
-    color: red;
-    justify-self: flex-start;
-    cursor: pointer;
-    font-size: 1.5rem;
-    display: flex;
-    align-items: center;
-    margin-left: 24px;
-    font-weight: bold;
-    text-decoration: none;
-`
-
 export const MobileIcon = styled.div`
-    display: none;
-
-    @media screen and (max-width: 1525px){
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        transform: translate(-100%, 60%);
-        font-size: 1.8rem;
-        cursor: pointer;
-        color: #fff;
-    }
+    display: block;
+    position: absolute;
+    top: 10;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #fff;
+        
 `
 
-export const NavMenu = styled.ul`
-    display: flex;
-    align-items: center;
-    list-style: none;
-    text-align: center;
-    margin-right: -250px;
-
-    @media screen and (max-width: 1525px) {
-        display: none;
-    }
+export const MainLogo = styled.img` 
+    width: 210px;
+    height: 100px;
+    margin: auto;
 `
 
-export const NavItem = styled.li`
-    height: 80px;
-`
+export const BackButton = styled.button`
+  padding: 10px 20px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+`;
 
-export const NavLinks = styled(LinkS)`
-color: #fff;
-display: flex;
-align-items: center;
-text-decoration: none;
-padding: 0 1rem;
-height: 100%;
-cursor: pointer;
-
-    &.active{
-        border-bottom: 3px solid #01bf71;
-    }
-`
-
-export const TestLogo = styled.img` 
-    width: 250px;
-`
+export const BackArrow = styled.i`
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+`;
