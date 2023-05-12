@@ -8,7 +8,7 @@ import BlogPost from './pages/blogPost';
 
 function App() {
   return (
-    <Router basename='/test-site'>
+    <Router basename='/outfitter-guide-landing-page'>
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/outfitter' element={<Outfitter/>} />
