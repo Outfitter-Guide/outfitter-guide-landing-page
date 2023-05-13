@@ -1,16 +1,21 @@
 {
   "files": {
     "main.css": "/outfitter-guide-landing-page/static/css/main.d7da34c1.css",
-    "main.js": "/outfitter-guide-landing-page/static/js/main.6971f1ef.js",
+    "main.js": "/outfitter-guide-landing-page/static/js/main.85b05d24.js",
     "static/media/kyle.jpeg": "/outfitter-guide-landing-page/static/media/kyle.7c21c98588be2a50bd62.jpeg",
     "static/media/elk_bugle.mp4": "/outfitter-guide-landing-page/static/media/elk_bugle.85e4b18998a4e07a0e9d.mp4",
+    "static/media/landing.JPG": "/outfitter-guide-landing-page/static/media/landing.f16fec43f3da93fac6b7.JPG",
     "static/media/patrick.jpeg": "/outfitter-guide-landing-page/static/media/patrick.ef51a353286f6231c45b.jpeg",
     "static/media/alex.jpeg": "/outfitter-guide-landing-page/static/media/alex.ae9f6db2a7ec4b4b0f50.jpeg",
     "static/media/john.jpg": "/outfitter-guide-landing-page/static/media/john.473d5a1f4a5c22fd2c29.jpg",
+    "static/media/slc23.jpeg": "/outfitter-guide-landing-page/static/media/slc23.934d75e4bcb0858ad29b.jpeg",
     "static/media/zach.jpeg": "/outfitter-guide-landing-page/static/media/zach.bf3a87869b5f5470d243.jpeg",
+    "static/media/upcomingHunt.png": "/outfitter-guide-landing-page/static/media/upcomingHunt.ce337d17b4c56af554cf.png",
     "static/media/steve.jpg": "/outfitter-guide-landing-page/static/media/steve.7e1dc7682ee5c7c97d5c.jpg",
     "static/media/brian.jpg": "/outfitter-guide-landing-page/static/media/brian.e1e557b3b2c3536d9219.jpg",
+    "static/media/huntAwait.png": "/outfitter-guide-landing-page/static/media/huntAwait.d0792721ee25c63e358a.png",
     "static/media/bear_creek.png": "/outfitter-guide-landing-page/static/media/bear_creek.08fb551e6bf7ac1040ca.png",
+    "static/media/shed_blue.png": "/outfitter-guide-landing-page/static/media/shed_blue.f2a7fe7c372b73123b49.png",
     "static/media/shed_white.png": "/outfitter-guide-landing-page/static/media/shed_white.b69b6b42c8cac536dbda.png",
     "static/media/kelly.jpg": "/outfitter-guide-landing-page/static/media/kelly.ba84de6ee22af36e667a.jpg",
     "static/media/rahul.jpg": "/outfitter-guide-landing-page/static/media/rahul.4785263626a8dfc9d406.jpg",
@@ -18,10 +23,10 @@
     "static/media/fawnie_mountain-logo.svg": "/outfitter-guide-landing-page/static/media/fawnie_mountain-logo.ba9875cc160596958017ec3b16f894ce.svg",
     "index.html": "/outfitter-guide-landing-page/index.html",
     "main.d7da34c1.css.map": "/outfitter-guide-landing-page/static/css/main.d7da34c1.css.map",
-    "main.6971f1ef.js.map": "/outfitter-guide-landing-page/static/js/main.6971f1ef.js.map"
+    "main.85b05d24.js.map": "/outfitter-guide-landing-page/static/js/main.85b05d24.js.map"
   },
   "entrypoints": [
     "static/css/main.d7da34c1.css",
-    "static/js/main.6971f1ef.js"
+    "static/js/main.85b05d24.js"
   ]
 }
